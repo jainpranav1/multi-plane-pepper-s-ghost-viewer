@@ -9,12 +9,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: black;
       }
 
       canvas {
         height: 100px;
         width: 350px;
         outline: solid;
+        outline-color: greenyellow;
       }
 
       .canvasSeparator {
@@ -30,5 +32,14 @@
     <canvas></canvas>
     <div class="canvasSeparator"></div>
     <canvas></canvas>
+    <script>
+      const canvases = document.querySelectorAll("canvas");
+      for (let i = 0; i < canvases.length; ++i) {
+        const context = canvases[i].getContext("2d");
+        console.log(context);
+        context.fillStyle = "greenyellow";
+        context.fillRect(100, 40, 50, 50);
+      }
+    </script>
   </body>
 </html>
