@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      #canvasContainer {
+        width: 350px;
+      }
+
+      #canvas1 {
+        height: 100px;
+        width: 350px;
+        outline: solid;
+      }
+
+      #canvas2 {
+        height: 100px;
+        width: 350px;
+        margin-top: 85px;
+        outline: solid;
+      }
+
+      #canvas3 {
+        height: 100px;
+        width: 350px;
+        margin-top: 90px;
+        outline: solid;
+      }
+
+      #canvas4 {
+        height: 100px;
+        width: 350px;
+        margin-top: 90px;
+        outline: solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="canvasContainer">
+      <canvas id="canvas1"></canvas>
+      <canvas id="canvas2"></canvas>
+      <canvas id="canvas3"></canvas>
+      <canvas id="canvas4"></canvas>
+    </div>
+    <script>
+      function draw() {
+        const canvas1 = document.getElementById("canvas1");
+        const canvas2 = document.getElementById("canvas2");
+        const canvas3 = document.getElementById("canvas3");
+        const canvas4 = document.getElementById("canvas4");
+
+        const canvas1Ctx = canvas1.getContext("2d");
+        const canvas2Ctx = canvas2.getContext("2d");
+        const canvas3Ctx = canvas3.getContext("2d");
+        const canvas4Ctx = canvas4.getContext("2d");
+
+        const canvasWidth = 350;
+
+        for (let i = 0; i < 350; ++i) {
+          canvas1Ctx.fillStyle = "aqua";
+          canvas1Ctx.fillRect(i, 20, 50, 50);
+
+          canvas2Ctx.fillStyle = "aqua";
+          canvas2Ctx.fillRect(i, 20, 50, 50);
+
+          canvas3Ctx.fillStyle = "aqua";
+          canvas3Ctx.fillRect(i, 20, 50, 50);
+
+          canvas4Ctx.fillStyle = "aqua";
+          canvas4Ctx.fillRect(i, 20, 50, 50);
+        }
+      }
+
+      draw();
+    </script>
+  </body>
+</html>
