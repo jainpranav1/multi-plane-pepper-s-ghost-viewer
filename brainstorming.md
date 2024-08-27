@@ -1,0 +1,23 @@
+Ideas for 4 canvases
+
+- mario themed
+  - Canvas 1
+  - Canvas 2 - sky, ground
+  - Canvas 3 - bushes, trees, clouds, ground
+  - Canvas 4 - Mario, ground, blocks, coins, pipes
+- city themed
+  - canvases
+    - Canvas 1 - sky
+    - Canvas 2 - buildings
+    - Canvas 3 - people
+    - Canvas 4 - protagonist
+  - sprites to use
+    - https://craftpix.net/freebies/city-man-pixel-art-character-sprite-sheets/
+    - https://craftpix.net/freebies/free-billboards-and-advertising-pixel-art/
+    - https://craftpix.net/product/cyberpunk-market-street-pixel-art/
+- platformer
+  - sprites to use
+    - https://craftpix.net/freebies/free-simple-platformer-game-kit-pixel-art/
+- city
+  - sprites to use
+    - https://craftpix.net/freebies/free-city-backgrounds-pixel-art/

@@ -12,12 +12,10 @@
         background-color: black;
       }
 
-      canvas {
-        height: 100px;
-        width: 350px;
+      /* canvas {
         outline: solid;
         outline-color: greenyellow;
-      }
+      } */
 
       .canvasSeparator {
         height: 92px;
@@ -25,21 +23,70 @@
     </style>
   </head>
   <body>
-    <canvas></canvas>
+    <canvas width="350px" , height="100px"></canvas>
     <div class="canvasSeparator"></div>
-    <canvas></canvas>
+    <canvas width="350px" , height="100px"></canvas>
     <div class="canvasSeparator"></div>
-    <canvas></canvas>
+    <canvas width="350px" , height="100px"></canvas>
     <div class="canvasSeparator"></div>
-    <canvas></canvas>
+    <canvas width="350px" , height="100px"></canvas>
+
     <script>
       const canvases = document.querySelectorAll("canvas");
+      const contexts = [];
       for (let i = 0; i < canvases.length; ++i) {
-        const context = canvases[i].getContext("2d");
-        console.log(context);
-        context.fillStyle = "greenyellow";
-        context.fillRect(100, 40, 50, 50);
+        contexts.push(canvases[i].getContext("2d"));
       }
+
+      const scaleFactor = 0.3;
+
+      const img0 = new Image();
+      img0.src = "/cityImages/6.png";
+      img0.addEventListener("load", () => {
+        contexts[0].drawImage(
+          img0,
+          100,
+          0,
+          567 * scaleFactor,
+          324 * scaleFactor
+        );
+      });
+
+      const img1 = new Image();
+      img1.src = "/cityImages/4.png";
+      img1.addEventListener("load", () => {
+        contexts[1].drawImage(
+          img1,
+          100,
+          0,
+          567 * scaleFactor,
+          324 * scaleFactor
+        );
+      });
+
+      const img2 = new Image();
+      img2.src = "/cityImages/3.png";
+      img2.addEventListener("load", () => {
+        contexts[2].drawImage(
+          img2,
+          100,
+          0,
+          567 * scaleFactor,
+          324 * scaleFactor
+        );
+      });
+
+      const img3 = new Image();
+      img3.src = "/cityImages/2.png";
+      img3.addEventListener("load", () => {
+        contexts[3].drawImage(
+          img3,
+          100,
+          0,
+          567 * scaleFactor,
+          324 * scaleFactor
+        );
+      });
     </script>
   </body>
 </html>
