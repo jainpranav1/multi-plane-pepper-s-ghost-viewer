@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+      }
+
+      .canvasSeparator {
+        height: 92px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas width="350px" , height="100px"></canvas>
+    <div class="canvasSeparator"></div>
+    <canvas width="350px" , height="100px"></canvas>
+    <div class="canvasSeparator"></div>
+    <canvas width="350px" , height="100px"></canvas>
+    <div class="canvasSeparator"></div>
+    <canvas width="350px" , height="100px"></canvas>
+
+    <script>
+      const canvases = document.querySelectorAll("canvas");
+
+      canvases[0].style.outline = "solid";
+      canvases[0].style.outlineColor = "greenyellow";
+
+      colors = ["black", "red", "blue", "green"];
+
+      for (let i = 0; i < 4; ++i) {
+        canvases[i].style.outline = "solid";
+        canvases[i].style.outlineColor = "greenyellow";
+
+        setTimeout(() => {
+          canvases[i].style.outline = "none";
+        }, "20000");
+
+        const img = new Image();
+        const context = canvases[i].getContext("2d");
+        context.fillStyle = colors[i];
+        context.fillRect(0, 0, 350, 100);
+      }
+    </script>
+  </body>
+</html>

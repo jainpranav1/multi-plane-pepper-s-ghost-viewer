@@ -6,7 +6,11 @@ Three experiments are conducted. The first experiment focuses on displaying a sm
 
 # How to Run
 
-Run `node index.js` and visit `http://localhost:3000/city.html` for experiment 1.
+Run `node index.js` and
+
+- visit `http://localhost:3000/city.html` for experiment 1
+- visit `http://localhost:3000/color.html` for experiment 2
+- visit `http://localhost:3000/move.html` for experiment 3
 
 # References
 
