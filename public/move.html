@@ -41,11 +41,24 @@
         setTimeout(() => {
           canvases[i].style.outline = "none";
         }, "20000");
-
-        const context = canvases[i].getContext("2d");
-        context.fillStyle = colors[i];
-        context.fillRect(0, 0, 350, 100);
       }
+
+      const delay = (delayInms) => {
+        return new Promise((resolve) => setTimeout(resolve, delayInms));
+      };
+
+      (async () => {
+        let colorInd = 0;
+        while (true) {
+          const context = canvases[colorInd].getContext("2d");
+          context.fillStyle = "blue";
+          context.fillRect(0, 0, 350, 100);
+          await delay(500);
+          context.fillStyle = "black";
+          context.fillRect(0, 0, 350, 100);
+          colorInd = (colorInd + 1) % 4;
+        }
+      })();
     </script>
   </body>
 </html>
