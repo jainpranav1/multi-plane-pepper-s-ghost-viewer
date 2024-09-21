@@ -2,7 +2,7 @@
 
 This repository contains code to conduct experiments with the Multi-Plane Pepper's Ghost Viewer (MPGV). The MPGV is essentially multiple Pepper's ghost viewers in series.
 
-Three experiments are conducted. The first experiment focuses on displaying a small city by having several buildings displayed by each plane. The second experiment focuses on displaying different colors on each plane and observing the mixing of colors. The last experiment focused on moving an image between planes.
+Three experiments are conducted. The first experiment focuses on displaying a small city by having several buildings displayed by each plane. The second experiment focuses on displaying different colors on each plane and observing the mixing of colors. The third experiment focused on moving an image between planes. The fourth experiment focuses on displaying a barn by having the red, green, and blue values seperated between planes.
 
 # How to Run
 
@@ -11,7 +11,8 @@ Run `node index.js` and
 - visit `http://localhost:3000/city.html` for experiment 1
 - visit `http://localhost:3000/color.html` for experiment 2
 - visit `http://localhost:3000/move.html` for experiment 3
+- visit `http://localhost:3000/barn.html` for experiment 4
 
 # References
 
-The building sprites are from [here](https://craftpix.net/freebies/free-city-backgrounds-pixel-art/).
+The building sprites are from [here](https://craftpix.net/freebies/free-city-backgrounds-pixel-art/).The barn image is from [here](https://en.wikipedia.org/wiki/File:Barns_grand_tetons.jpg).
