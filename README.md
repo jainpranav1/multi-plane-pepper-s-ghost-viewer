@@ -4,6 +4,10 @@ This repository contains code to conduct experiments with the Multi-Plane Pepper
 
 Three experiments are conducted. The first experiment focuses on displaying a small city by having several buildings displayed by each plane. The second experiment focuses on displaying different colors on each plane and observing the mixing of colors. The third experiment focused on moving an image between planes. The fourth experiment focuses on displaying a barn by having the red, green, and blue values seperated between planes.
 
+# Demo
+
+[![multi plane pepper's ghost demo video](https://img.youtube.com/vi/f_CI8Ym-H74/0.jpg)](https://www.youtube.com/watch?v=f_CI8Ym-H74)
+
 # How to Run
 
 Run `node index.js` and
