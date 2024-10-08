@@ -17,6 +17,12 @@ Run `node index.js` and
 - visit `http://localhost:3000/move.html` for experiment 3
 - visit `http://localhost:3000/barn.html` for experiment 4
 
+# Similar Projects
+
+I found several similar projects that I would highly recommend checking out.
+- [Additive Color Mixing With CD Covers](https://en.wikipedia.org/wiki/File:Additive_colors.ogv)
+- [Multi-plane Holographic Display](https://www.youtube.com/watch?v=KW2PCe1TfS8)
+
 # References
 
-The building sprites are from [here](https://craftpix.net/freebies/free-city-backgrounds-pixel-art/).The barn image is from [here](https://en.wikipedia.org/wiki/File:Barns_grand_tetons.jpg).
+The building sprites are from [here](https://craftpix.net/freebies/free-city-backgrounds-pixel-art/). The barn image is from [here](https://en.wikipedia.org/wiki/File:Barns_grand_tetons.jpg).
