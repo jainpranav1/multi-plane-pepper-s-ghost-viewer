@@ -22,6 +22,8 @@ Run `node index.js` and
 I found several similar projects that I would highly recommend checking out.
 - [Additive Color Mixing With CD Covers](https://en.wikipedia.org/wiki/File:Additive_colors.ogv)
 - [Multi-plane Holographic Display](https://www.youtube.com/watch?v=KW2PCe1TfS8)
+- [Multi-Depth Pepper's Ghost Display](https://ieeexplore.ieee.org/document/4089222)
+- [Walt Disney's Multi-Plane Camera](https://www.youtube.com/watch?v=YdHTlUGN1zw)
 
 # References
 
