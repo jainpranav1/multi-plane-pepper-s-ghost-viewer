@@ -24,6 +24,7 @@ I found several similar projects that I would highly recommend checking out.
 - [Multi-plane Holographic Display](https://www.youtube.com/watch?v=KW2PCe1TfS8)
 - [Multi-Depth Pepper's Ghost Display](https://ieeexplore.ieee.org/document/4089222)
 - [Walt Disney's Multi-Plane Camera](https://www.youtube.com/watch?v=YdHTlUGN1zw)
+- [DepthCube](https://www.researchgate.net/publication/239498594_DepthCube_solid-state_3D_volumetric_display)
 
 # References
 
